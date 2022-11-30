@@ -1,0 +1,8 @@
+.footer {
+  margin-top: 0.6rem;
+  margin-left: -20px;
+}
+
+.footer > div {
+  font-size: 11px;
+}

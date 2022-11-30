@@ -1,0 +1,232 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.genel {
+    background-color: #FAFAFA;
+}
+
+.login-page__right {
+    width: 23rem;
+    height: 24rem;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-top: 0.5rem;
+}
+
+.login-page__right > div {
+    background-color: #FFFFFF;
+}
+
+.login-page__right > div > img {
+    object-fit: contain;
+    width: 180px;
+    height: 80px;
+}
+
+
+.login-page__input > form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    gap: 0.5rem;
+    width: 75%;
+}
+
+.login-page__input > form > input {
+    height: 2.4rem;
+    background-color: #FAFAFA;
+    border: 1px solid lightgray;
+    font-size: 12px;
+
+}
+
+.login-page__input > form > input::placeholder {
+    padding-left: 0.5rem;
+    color: rgb(150, 150, 150);
+}
+
+.login-page__button {
+    width: 75%;
+    height: 2rem;
+    margin: 0.2rem auto;
+    background-color: #0095F6;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+.disabled {
+    width: 75%;
+    height: 2rem;
+    margin: 0.2rem auto;
+    background-color: #0095F6;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.3;
+    font-size: 14px;
+}
+
+.login-page__right1 {
+    width: 23rem;
+    height: 4.2rem;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-page__right1 > span {
+    cursor: pointer;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    color: #385185;
+    font-size: 15px;
+}
+
+.download {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: 1rem auto;
+    font-size: 13px;
+    color: rgb(142, 142, 142);
+    font-weight: 600;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: 1rem;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: 1rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8e8e9c;
+  }
+
+  .footer__1 {
+    display: flex;
+    font-size: 12px;
+    margin: auto auto;
+  }
+
+  .footer__1 > div {
+    display: flex;
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer__2 {
+    display: flex;
+    font-size: 12px;
+    margin: auto auto;
+  }
+
+  .footer__2 > div {
+    margin-bottom: 4rem;
+  }
+
+  @media screen and (max-width: 1090px) {
+    .footer__1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__1 > div {
+        margin-bottom: 5px;
+    }
+
+    .footer__2 > div {
+        margin-top: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 875px) {
+    .phone {
+      display: none;
+    }
+
+    .login-page {
+        margin-bottom: 3.7rem;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .login-page__right {
+        border: none;
+        background-color: #FAFAFA;
+    }
+
+    .login-page__right1 {
+        border: none;
+        background-color: #FAFAFA;
+    }
+
+    .genel {
+        background-color: #FAFAFA;
+    }
+    
+    .login-page__right > div {
+        background-color: #FAFAFA;
+    }
+
+    .facebook:first-child {
+        background-color: green;
+    }
+
+    .login-page {
+        margin-top: 0;
+    }
+  }

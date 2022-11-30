@@ -1,0 +1,44 @@
+.profile2 {
+    width: 100%;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 3rem;
+}
+
+.history__item {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin: 2.8rem 0 0 0.6rem;
+    z-index: 1;
+}
+
+.history b {
+    padding: 1rem;
+    margin-left: 1.4rem;
+} 
+
+.profile__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.profile__content > div {
+    font-size: 0.85rem;
+    margin-left: 2rem;
+    color: rgb(116, 116, 116);
+    margin-top: -17px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.profile__content .active {
+    border-top: 2px solid rgb(56, 56, 56);
+} 
